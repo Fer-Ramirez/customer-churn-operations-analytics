@@ -1,5 +1,5 @@
-Customer Churn & Revenue Risk Analysis
-Identifying Operational Drivers of Customer Attrition
+# Customer Churn & Revenue Risk Analysis
+## Identifying Operational Drivers of Customer Attrition
 Analyzed 440k customer records to identify churn drivers, revenue exposure, and operational risk factors impacting customer retention in a subscription business.
 Business Intelligence and Operations Analytics project focused on customer churn, revenue analytics, and predictive modeling.
 —-
@@ -7,7 +7,7 @@ Executive Summary (Slides)
 Download the presentation:
 View Slides
 
-Business Problem
+## Business Problem
 Customer churn represents a major challenge for subscription-based businesses.
 High churn rates can significantly impact revenue stability, customer lifetime value, and long-term growth.
 This project analyzes a subscription platform dataset to understand:
@@ -17,7 +17,7 @@ how churn affects revenue generation
 which operational signals may help predict customer attrition
 The goal is to identify actionable insights that can help reduce churn and improve revenue stability. The analysis also supports customer retention strategies through predictive analytics and operational insights.
 
-Dataset
+## Dataset
 The dataset contains 440,832 customer records with behavioral, financial, and subscription-related variables.
 
 Key variables include:
@@ -32,7 +32,7 @@ Total Spend
 Churn
 Note: The dataset used in this project is synthetic and designed for analytical practice.
 
-Analytical Approach
+## Analytical Approach
 The analysis followed a structured workflow:
 1 Data Exploration and Cleaning
 dataset validation
@@ -58,7 +58,7 @@ Usage Frequency
 Last Interaction
 A Random Forest model was used as part of a predictive analytics approach to estimate feature importance and identify key churn drivers.
 
-Key Findings
+## Key Findings
 Several insights emerged from the analysis.
 1. Contract structure strongly influences churn
 Customers with monthly contracts exhibit significantly higher churn rates compared with quarterly and annual contracts.
@@ -71,7 +71,7 @@ Approximately 48.6% of total revenue is associated with customers who eventually
 5. Operational friction is the strongest churn driver
 Feature importance analysis indicates that Support Calls account for nearly half of the predictive importance, suggesting that service-related issues may be a major contributor to churn.
 
-Strategic Recommendations
+## Strategic Recommendations
 Based on the findings, several opportunities emerge:
 Investigate customer support interactions to identify recurring issues driving churn
 Develop early-warning indicators based on support activity and payment delays
@@ -79,7 +79,7 @@ Encourage migration from monthly to longer-term contracts through incentives or 
 Improve customer support processes to reduce service-related friction
 These actions aim to improve customer retention and reduce revenue risk through data-driven operational strategies.
 
-Tools Used
+## Tools Used
 Python
 Pandas
 DuckDB
