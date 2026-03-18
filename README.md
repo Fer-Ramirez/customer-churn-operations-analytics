@@ -4,12 +4,24 @@
 Analyzed 440k customer records to identify churn drivers, revenue exposure, and operational risk factors impacting customer retention in a subscription business. Business Intelligence and Operations Analytics project focused on customer churn, revenue analytics, and predictive modeling.
 
 **Executive Summary (Slides)**
+=======
+Analyzed 440k customer records to identify churn drivers, revenue exposure, and operational risk factors impacting customer retention in a subscription business.
+Business Intelligence and Operations Analytics project focused on customer churn, revenue analytics, and predictive modeling.
+—-
+Executive Summary (Slides)
+>>>>>>> Save local changes before pull
 Download the presentation:
 View Slides
-
+---
 ## Business Problem
 This project addresses a $160M+ revenue exposure caused by customer attrition. By analyzing 440k records, I isolated the operational bottlenecks and contract structures that trigger churn, providing a data-driven roadmap to stabilize recurring revenue.
 
+<<<<<<< HEAD
+## Business Problem
+This project addresses a $160M+ revenue exposure caused by customer attrition. By analyzing 440k records, I isolated the operational bottlenecks and contract structures that trigger churn, providing a data-driven roadmap to stabilize recurring revenue.
+
+=======
+>>>>>>> Save local changes before pull
 ## Dataset
 The dataset contains 440,832 customer records with behavioral, financial, and subscription-related variables.
 
@@ -42,11 +54,19 @@ Monthly contracts exhibit a 100% churn rate, whereas Quarterly and Annual plans 
 Feature Importance analysis (Score: 0.47) isolates Support Calls as the single most predictive driver of churn. This proves that customers aren't leaving due to price, but due to unresolved service-related friction.
 
 ## Strategic Recommendations
+<<<<<<< HEAD
 * Pillar 1: Support Audit (Immediate). Conduct a Root Cause Analysis (RCA) on support tickets to identify the specific technical friction points causing the ~50% importance spike.
 
 * Pillar 2: Contract Migration (Short-term). Design an incentive program to transition "At-Risk" monthly subscribers to quarterly/annual plans, which show 50%+ higher retention rates.
 
 * Pillar 3: Predictive Early Warning System (Long-term). Integrate the Random Forest classifier into the CRM workflow to trigger proactive 'Success Reach-outs' when a customer hits a high-risk support or payment delay threshold.
+=======
+*Pillar 1: Support Audit (Immediate). Conduct a Root Cause Analysis (RCA) on support tickets to identify the specific technical friction points causing the ~50% importance spike.
+
+*Pillar 2: Contract Migration (Short-term). Design an incentive program to transition "At-Risk" monthly subscribers to quarterly/annual plans, which show 50%+ higher retention rates.
+
+*Pillar 3: Predictive Early Warning System (Long-term). Integrate the Random Forest classifier into the CRM workflow to trigger proactive 'Success Reach-outs' when a customer hits a high-risk support or payment delay threshold.
+>>>>>>> Save local changes before pull
 
 ## Tools Used
 Python
